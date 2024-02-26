@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Parts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- link bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <header id="header-container">
+    <nav id="nav-header">
+      <img id="logo" src="./ảnh/logo.png">
+      <ul class="nav-list">
+        <li><a class="list" href="#">Home</a></li>
+        <li><a class="list" href="#">Phụ Tùng ÔTô</a></li>
+        <li><a class="list" href="#">Phụ Kiện ÔTô</a></li>
+        <li><a class="list" href="#">Dầu Nhớt</a></li>
+        <li><a class="list" href="#">Chăm Sóc Xe</a></li>
+      </ul>
+      <div class="nav-div">
+        <form class="nav-form">
+          <input type="text" placeholder="Tìm kiếm sản phẩm">
+          <button type="submit">Search</i></button>
+        </form>
+        <div class="nav-button">
+          <button><a href="#">Đăng ký</a></button>
+          <button><a href="#">Đăng nhập</a></button>
+          <button><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></button>   
+        </div>
+      </div>
+    </nav>
+ </header>
+   <!-- banner -->
+   <section id="section">
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="./ảnh/banner-peugeot-chong-xuoc-01.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="./ảnh/Banner-phukienxe-3.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="./ảnh/banner2.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+   </section>
+    
+
+   <!-- Cam kết khách hàng -->
+      <div class="commit">
+         <div class="commit-div com-one">
+            <i class="fa-solid fa-truck"></i>
+            <h5>GIAO HÀNG HỎA TỐC</h5>
+            <p>Giao hàng ngay trong 60 phút nội thành Hà Nội.</p>
+          </div>
+          <div class="commit-div com-two">
+             <i class="fa-solid fa-gift"></i>
+             <h5>MUA ĐỂ NHẬN QUÀ</h5>
+             <p>Giá siêu ưu đãi, khuyến mãi thả ga, mua ngay có quà</p>
+          </div>
+           <div class="commit-div com-three">
+              <i class="fa-regular fa-square-check"></i>
+              <h5>CAM KẾT CHÍNH HÃNG</h5>
+              <p>Cung cấp sản phẩm chính hãng giá gốc tới tận tay người dùng</p>
+           </div>
+      </div>
+      <div>
+         <h2>PHỤ KIỆN Ô TÔ, ĐỒ CHƠI XE HƠI, PHỤ TÙNG Ô TÔ CHÍNH HÃNG UY TÍN HÀNG ĐẦU TẠI VIỆT NAM.</h2>
+         <hr>
+      </div>
+
+    <!-- danh mục sản phẩm ảnh -->
+      <content class="product-port">
+        <div class="product">
+          <div class="card">
+            <img src="./ảnh/phu-kien-o-to-large.jpg" class="card-img" alt="phụ tùng">
+            <div class="card-overlay">
+              <h5 class="card-title">Phụ Tùng</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./ảnh/phu-tung-o-to.jpg" class="card-img" alt="phụ kiện">
+            <div class="card-overlay">
+              <h5 class="card-title">Phụ Kiện</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./ảnh/cong-cu-sua-chua-xe.png" class="card-img" alt="công cụ sửa chữa">
+            <div class="card-overlay">
+              <h5 class="card-title">Công Cụ Sửa Chữa</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./ảnh/dau-nhot-va-phu-gia.jpg" class="card-img" alt="dầu nhớt & phụ gia">
+            <div class="card-overlay">
+              <h5 class="card-title">Dầu Nhớt & Phụ Gia</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./ảnh/rp7-chinh-hang-tay-bay-ri-set-o-khoa.jpg" class="card-img" alt="bài viết chia sẻ">
+            <div class="card-overlay">
+              <h5 class="card-title">Bài Viết Chia Sẻ</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./ảnh/sản phẩm/rem-che-nang-o-to-nam-cham-peugeot.jpg" class="card-img" alt="chăm sóc xe">
+            <div class="card-overlay">
+              <h5 class="card-title">Chăm Sóc Xe</h5>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div>
+          <h4>Gợi ý dành riêng cho bạn</h4>
+        </div>
+
+        <main class="menu-product">
+
+          <div class="menu-group">
+            <div class="menu">
+              <img src="./ảnh/sản phẩm/Bạt_phủ_nóc_xe_o_to_cao_cáp_Mercedes-Benz_C-Class_Sedan_2000-2003-w203.jpg" class="menu-img" alt="...">
+              <div class="card-body">
+                <h5 class="menu-title">Bạt phủ nóc xe ô tô cao cấp Mercedes-Benz C-Class Sedan 2000-2003-w203.<br>
+                  Giá bán:<del>350,000₫</del> <span class="price">240,000₫</span> </h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-group">
+            <div class="menu">
+              <img src="./ảnh/sản phẩm/Bạt_phủ_xe_o_to_3_lóp_cao_cáp_Mercedes-Benz_C-Class_Sedan_2014-2022.jpg" class="menu-img" alt="...">
+              <div class="card-body">
+                <h5 class="menu-title">Bạt phủ xe ô tô 3 lớp cao cấp Mercedes-Benz C-Class Sedan 2014-2022.<br>
+                  Giá bán:<del>450,000₫</del> <span class="price"> 390,000₫</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-group">
+            <div class="menu">
+              <img src="./ảnh/sản phẩm/Bo_rèm_che_náng_o_to_nam_cham_theo_xe_Nissan_QASHQAI_2014-2022.jpg" class="menu-img" alt="...">
+              <div class="card-body">
+                <h5 class="menu-title">Rèm che nắng ô tô nam châm theo xe Suzuki Celerio 2018-2022.<br>
+                  Giá bán:<del>550,000₫</del>  <span class="price">390,000₫</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-group">
+            <div class="menu">
+              <img src="./ảnh/sản phẩm/Bọ_rèm_che_náng_o_to_nam_cham_theo_xe_Chevrolet_Spark_2009-2011jg.jpg" class="menu-img" alt="...">
+              <div class="card-body">
+                <h5 class="menu-title">Bộ rèm che nắng ô tô nam châm theo xe Chevrolet Spark 2009-2011jg.<br>
+                  Giá bán: <del>550,000₫</del> <span class="price">390,000₫</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-group">
+            <div class="menu">
+              <img src="./ảnh/sản phẩm/Gat_mua_Ford_Focus_Hatch_2002-2005_Silicon_Vista_than_mèm_Nano_giá_rẻ_cho_xe_o_to.jpg" class="menu-img" alt="...">
+              <div class="card-body">
+                <h5 class="menu-title">Gạt mưa Ford Focus Hatch 2002-2005 Silicon Vista thân mềm Nano giá rẻ cho xe ô tô.<br>
+                  Giá bán:<del>240,000₫</del> <span class="price">130,000₫</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-group">
+            <div class="menu">
+              <img src="./ảnh/sản phẩm/Gat_mua_Hyundai_i20_2019-2022_Heyner_Germany_Super_Flat_Premium_Nano_chinh_hang.jpg" class="menu-img" alt="...">
+              <div class="card-body">
+                <h5 class="menu-title">Gạt mưa Hyundai i20 2019-2022 Heyner Germany Super.<br>
+                  Giá bán:<deL>700.000đ</deL> <span class="price">530,000₫</span></h5>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="menu-group">
+            <div class="menu">
+              <img src="./ảnh/sản phẩm/Gat_mua_o_to_Mitsubishi_Jolie_1998-2007_Denso_DGG_du_kich_thuoc_bao_hanh_1_doi_1.jpg" class="menu-img" alt="...">
+              <div class="card-body">
+                <h5 class="menu-title">Gạt mưa ô tô Mitsubishi Jolie 1998-2007 Denso DGG.<br> 
+                  Giá bán:<del>320,000₫</del> <span class="price">199,000₫</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-group">
+            <div class="menu">
+              <img src="./ảnh/sản phẩm/Gat_mua_o_to_Nissan_X-Trail_2014-2022_Denso_DGG_du_kich_thuoc_bao_hanh_1_doi_1.jpg" class="menu-img" alt="...">
+              <div class="card-body">
+                <h5 class="menu-title">Gạt mưa ô tô Nissan X-Trail 2014-2022 Denso DGG.<br> 
+                  Giá bán:<del>320,000₫</del> <span class="price">199,000₫</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-group">
+            <div class="menu">
+              <img src="./ảnh/sản phẩm/Gat_mua_o_to_Toyota_Camry_Sedan_2007-2011_DCN_Nhạt_Bản_xuong_cúng_Nano_Graphite_chính_hãng.jpg" class="menu-img" alt="...">
+              <div class="card-body">
+                <h5 class="menu-title">Gạt mưa ô tô Toyota Camry Sedan 2007-2011 DCN Nhật Bản.<br> 
+                  Giá bán: <del>360,000₫</del> <span class="price">220,000₫</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-group">
+            <div class="menu">
+              <img src="./ảnh/sản phẩm/Gat_mua_sau_Audi_Q3_2012-2018_Heyner_Germany_chinh_hang.jpg" class="menu-img" alt="...">
+              <div class="card-body">
+                <h5 class="menu-title">Gạt mưa sau Audi Q3 2012-2018 Heyner Germany chính hãng.<br>
+                  Giá bán:<del>350,000₫</del> <span class="price">290,000₫</span> </h5>
+              </div>
+            </div>
+          </div>
+        </main>
+        
+           <!-- phân trang -->
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&raquo;</a>
+        </div>
+        <!-- phụ kiện nội thâts -->
+
+        <div id="scroll">
+          <b id="accessory">Phụ Kiện Nội Thất</b>
+          <button class="btn-scroll">Xem tất cả</button>
+          <br>
+          <br>
+           <div class="scroll-container">
+             <div class="scroll-page">
+                <a href="#"><img class="scroll-img" src="./ảnh/sản phẩm/sản phẩm nội thất/binh-dun-nuoc-12V-cao-cap-2.webp"></a>
+             </div>
+             <div class="scroll-page">
+                <a href="#"><img class="scroll-img" src="./ảnh/sản phẩm/sản phẩm nội thất/chai-xit-thom-han-quoc-o-to-tu-quan-ao-1.jpg"></a>
+             </div>
+             <div class="scroll-page">
+                <a href="#"><img class="scroll-img" src="./ảnh/sản phẩm/sản phẩm nội thất/Guong-cau-loi-xoa-diem-mu-gan-kinh-chieu-hau-o-to-1.jpg"></a>
+             </div>
+             <div class="scroll-page">
+                <a href="#"><img class="scroll-img" src="./ảnh/sản phẩm/sản phẩm nội thất/guong-gap-dien-toyota-innova-theo-xe-2.jpg"></a>
+             </div>
+             <div class="scroll-page">
+                <a href="#"><img class="scroll-img" src="./ảnh/sản phẩm/sản phẩm nội thất/rem-che-nang-oto-lexus.jpg"></a>
+             </div>
+             <div class="scroll-page">
+                 <a href="#"><img class="scroll-img" src="./ảnh/sản phẩm/sản phẩm nội thất/tau-sac-hyundai-bluetooth-hy-82-1.jpg"></a>
+              </div>
+             <div class="scroll-page">
+                 <a href="#"><img class="scroll-img" src="./ảnh/sản phẩm/sản phẩm nội thất/tinh-dau-xe-hoi-moc-nhien-10ml-720-1.png"></a>
+             </div>
+          </div>
+       </div>
+
+       <!-- phụ tùng -->
+
+       <div id="product-scroll">
+        <b id="accessory-scroll">Phụ Tùng</b>
+        <button class="btn-scrolls">Xem tất cả</button>
+        <br>
+        <br>
+         <div class="scroll-contai">
+           <div class="scroll-child">
+              <a href="#"><img class="img-child" src="./ảnh/phụ tùng/bo-day-coi-o-to-1m5-kem-ro-le-2-247x296.jpg"></a>
+           </div>
+           <div class="scroll-child">
+              <a href="#"><img class="img-child" src="./ảnh/phụ tùng/bugi-iridirum-denso-chinh-hang-1-247x296.jpg"></a>
+           </div>
+           <div class="scroll-child">
+              <a href="#"><img class="img-child" src="./ảnh/phụ tùng/bugi-toyota-altis-vios-yaris-corolla-chinh-hang-1-247x296.png"></a>
+           </div>
+           <div class="scroll-child">
+              <a href="#"><img class="img-child" src="./ảnh/phụ tùng/coi-denso-chong-nuoc-chinh-hang-o-to-247x296.jpg"></a>
+           </div>
+           <div class="scroll-child">
+              <a href="#"><img class="img-child" src="./ảnh/phụ tùng/coi-dia-Denso-chinh-hang-1-giac-toyota-1-247x296.jpg"></a>
+           </div>
+           <div class="scroll-child">
+               <a href="#"><img class="img-child" src="./ảnh/phụ tùng/Gat_mua_Ford_Transit_1994-2000_Heyner_Germany_Super_Flat_Premium_Nano_chinh_hang-247x296.jpg"></a>
+            </div>
+           <div class="scroll-child">
+               <a href="#"><img class="img-child" src="./ảnh/phụ tùng/loc-dau-o-to-mitsubishi-247x296.jpg"></a>
+           </div>
+        </div>
+     </div>
+
+
+
+      </content>
+      <aside>
+        <main id="main-paragraph">
+          
+          <strong id="preface">Công ty phụ tùng ô tô chính hãng, phụ kiện và nội thất cao cấp hàng đầu</strong>
+          <br>
+        <p id="paragraph">  
+          Công ty chúng tôi là một trong những đơn vị hàng đầu chuyên cung cấp các loại phụ tùng ô tô chính hãng,
+           phụ kiện và nội thất cao cấp cho các dòng xe khác nhau. Với nhiều năm kinh nghiệm trong ngành công nghiệp ô tô, chúng tôi đã xây dựng được danh tiếng vững chắc với khách hàng và đối tác.
+          <br>
+          Phụ tùng ô tô chính hãng: Chúng tôi cung cấp các loại phụ tùng chính hãng từ những thương hiệu uy tín trên thế giới.
+          Khách hàng có thể yên tâm về chất lượng và độ bền của sản phẩm. Chúng tôi cam kết chỉ bán hàng chính hãng, đảm bảo đáp ứng mọi nhu cầu sửa chữa và bảo dưỡng xe của khách hàng.
+           <br>
+           Phụ kiện ô tô cao cấp: Để nâng cao trải nghiệm lái xe và tăng tính thẩm mỹ cho chiếc xe của bạn, 
+           chúng tôi cung cấp một loạt phụ kiện ô tô cao cấp. Từ bọc vô-lăng, lót sàn, đèn LED, đến các phụ kiện tiện ích khác, chúng tôi đáp ứng đủ các nhu cầu tùy chỉnh xe của khách hàng.
+          <br>
+          Nội thất ô tô cao cấp: Không chỉ mang đến sự thoải mái và tiện nghi, nội thất ô tô cao cấp còn thể hiện phong cách và 
+          đẳng cấp của chủ nhân. Chúng tôi cung cấp các sản phẩm nội thất bọc da, các loại ghế da cao cấp, lót sàn da, và nhiều phụ kiện nội thất khác để tăng thêm giá trị cho chiếc xe của bạn.
+        </p>
+      </main>
+      </aside>
+      <footer class="container-foot">
+        <nav class="nav-foot">
+          <div class="nav-bot">
+            <ul class="footer-menu">
+              <li class="footer-li"><a href="#" class="footer-a">Bảo Hành & Đổi Trả</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Mua Hàng & Thanh Toán</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Chính Sách Bảo Mật</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Chính Sách Hoàn Tiền</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Chính Sách Giao Hàng</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">Đồ chơi độc cho ô tô</a></li>
+              <li class="footer-li">VPGD: 122 Vĩnh Tuy, Hai Bà Trưng, Hà Nội</li>
+              <li class="footer-li">Kho: 11 Bạch Đằng, Hai Bà Trưng, Hà Nội</li>
+              <li class="footer-li">Hotline: 03486.153.89(7:00-22:00)</li>
+            </ul>
+            <div class="logo-company"><i class="far fa-copyright">Designed by Boluna</i> </div>
+          </div>
+        </nav>
+      </footer>
+
+    
+     
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
